@@ -1,2 +1,2 @@
-# HTML-CSS Mini Course
+# HTML-CSS Courses (including also the Mini Course + Workshop)
 
