@@ -1,0 +1,33 @@
+html {
+    font-family: Helvetica, sans-serif;
+}
+
+span {
+    font-weight: bolder;
+    font-size: 41px;
+    margin-top: 38px;
+    margin: 38px 55px 0 0;
+}
+
+span, nav, li{
+    display: inline-block;
+    margin-bottom: 10px;
+   
+}
+a{
+    font-size: 15px;
+    text-decoration: none;
+    color: rgb(60, 153, 103);
+    padding-right: 27px;
+}
+
+div {
+border-top: 2px groove rgb(46, 45, 45);
+}
+
+h2 {
+   font-family: serif;
+   font-weight: bolder;
+    margin-top: 30px;
+    font-weight: 500;
+}
