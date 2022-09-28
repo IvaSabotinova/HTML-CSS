@@ -1,0 +1,35 @@
+body{
+    font-family: Helvetica, sans-serif;
+    line-height: 1.5;
+    background-color: rgb(238, 238, 238);
+    color: rgb(51, 51, 51);
+    width: 77%;
+}
+
+h1, h2 {
+    font-family: Georgia, serif;
+}
+
+article {
+
+    margin: 5px 0 10px 30px;
+}
+
+article, aside {
+    display: inline-block;
+}
+
+article, img {
+    width: 68%;    
+}
+
+aside {
+    width: 27%;
+    float: right;
+    vertical-align: top; 
+}
+
+a {
+    color: rgb(39, 39, 220);
+}
+
