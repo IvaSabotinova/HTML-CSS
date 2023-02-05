@@ -1,0 +1,36 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css);
+
+.viewport:first-child{
+background-image: linear-gradient(to right, rgb(42, 7, 242), rgb(65, 194, 241))
+}
+
+.viewport:last-child{
+    height: 50%;
+    background-image: linear-gradient(to right, rgb(234, 38, 7), rgb(241, 118, 65));    
+}
+
+.viewport{
+    height: 50vh;
+    position: relative;
+}
+
+.viewport .card{
+    display: block;
+    position: absolute; 
+    width: 30%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.viewport .card img {
+   width: 50%;
+   position: relative; 
+}
+
+i {
+position: absolute;
+color: white;
+right: 231px;
+bottom: 12px;
+} 
+
