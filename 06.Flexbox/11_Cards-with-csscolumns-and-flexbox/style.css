@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(238, 238, 238);
+}
+
+.masonry {
+    display: flex;
+    flex-flow: column wrap;  
+    padding: 0px 50px 0 300px;
+    height: 220vh;
+    width: 50vw;      
+    align-items: center;  
+    justify-content: baseline;  
+    gap: 10px;       
+}
+
+.layoutOne{
+   padding-left: 300px;
+  
+}
+
+.masonry .card {    
+    background-color: white;
+    border-radius: 5px;
+    width: 50%;
+    border: 2px solid rgb(233, 232, 232);
+}
+
+img {
+    width: 100%;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    object-fit: cover;
+}
+
+.masonry .card footer {
+    margin-top: auto;
+}
+
+.flex {
+    display: flex;
+   flex-flow: row wrap;
+    padding: 0px 420px 100px 300px;   
+    align-items: flex-start;    
+    gap: 8px;    
+}
+
+.flex .card {
+    width: 30%;
+    height: 90vh;
+    border-radius: 5px;
+    background-color: white;
+    border: 2px solid rgb(233, 232, 232);
+    display: flex;
+    flex-direction: column;
+}
+
+.layoutTwo{
+    padding-left: 300px;
+}
+
+h3, 
+p
+ {
+    padding: 0px 10px;
+}
+
+
+footer {
+    padding: 20px 10px;
+    border-top: 2px solid rgb(233, 232, 232);   
+}
+
+
+
+.flex .card footer {
+align-content: flex-end;
+margin-top: auto;
+
+}
