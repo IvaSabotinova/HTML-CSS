@@ -1,0 +1,360 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css);
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    background-color: rgb(248, 243, 243);
+}
+
+/* Section Header */
+
+header {
+    margin: 10px 260px;
+    display: flex;
+    align-items: center;
+
+}
+
+div.nav {
+    width: 500px;
+    margin-right: auto;
+}
+
+h1.nav {
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(113, 18, 201);
+}
+
+p.nav {
+    text-transform: uppercase;
+    font-size: 9px;
+}
+
+ul.nav {
+    display: flex;
+    gap: 20px;
+}
+
+.nav__nav-item a {
+    text-decoration: none;
+    color: black;
+}
+
+/* Section Need a Website? */
+
+section.website {
+    margin: 10px 200px;
+    padding: 50px 0px 50px 150px;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+div.website {
+    width: 500px;
+}
+
+h2.website {
+    padding-bottom: 5px;
+}
+
+p.website {
+    padding-bottom: 15px;
+}
+
+button.website {
+    border: 1px solid black;
+    border-radius: 3px;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+/* Section Our Team */
+
+section.team {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+div.main_team {
+    padding: 0px 100px;
+    display: grid;
+    grid-template-areas: "photo1 photo2 photo3"
+        "photo4 photo5 photo6";
+}
+
+h1.team {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+div.line {
+    border-top: 2px solid black;
+    width: 80px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+div.team1 {
+    grid-area: photo1;
+}
+
+div.team2 {
+    grid-area: photo2;
+}
+
+div.team3 {
+    grid-area: photo3;
+}
+
+div.team4 {
+    grid-area: photo4;
+}
+
+div.team5 {
+    grid-area: photo5;
+}
+
+div.team6 {
+    grid-area: photo6;
+}
+
+div.team1,
+div.team2,
+div.team3,
+div.team4,
+div.team5,
+div.team6 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+}
+
+p.team__name {
+    font-weight: bold;
+    font-size: 13px;
+}
+
+p.team__position {
+    font-style: italic;
+    margin-bottom: 5px;
+}
+
+p.team__desc {
+    width: 200px;
+}
+
+section.team img {
+    width: 70px;
+    border: 3px solid rgb(239, 234, 234);
+    border-radius: 100%;
+    margin-bottom: 5px;
+
+}
+
+/* Section Newsletter */
+
+section.newsletter {
+    background-color: rgb(113, 18, 201);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+}
+
+h2.newsletter {
+    color: white;
+    letter-spacing: 0.5px;
+}
+
+
+div.newsletter__line {
+    border-top: 2px solid black;
+    width: 80px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+/* Section Testimonials */
+
+section.testimonials {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+
+section.testimonials img {
+    width: 70px;
+    border: 3px solid rgb(239, 234, 234);
+    border-radius: 100%;
+    margin-bottom: 5px;
+
+}
+
+h2.testimonials {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    margin: 20px 0px 10px 0px;
+    letter-spacing: 1px;
+}
+
+div.main__testimonials {
+    padding: 0px 360px;
+    display: grid;
+    grid-template-areas: "testimonials1 testimonials2 testimonials3"
+        "testimonials4 testimonials5 testimonials6";
+}
+
+div.testimonials__line {
+    border-top: 2px solid black;
+    width: 80px;
+    margin-bottom: 20px;
+}
+
+div.testimonials1 {
+    grid-area: testimonials1;
+}
+
+div.testimonials2 {
+    grid-area: testimonials2;
+}
+
+div.testimonials3 {
+    grid-area: testimonials3;
+}
+
+div.testimonials4 {
+    grid-area: testimonials4;
+}
+
+div.testimonials5 {
+    grid-area: testimonials5;
+}
+
+div.testimonials6 {
+    grid-area: testimonials6;
+}
+
+div.testimonials1,
+div.testimonials2,
+div.testimonials3,
+div.testimonials4,
+div.testimonials5,
+div.testimonials6 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+}
+
+p.testimonials__text {
+    font-style: italic;
+    margin-bottom: 15px;
+}
+
+
+p.testimonials__name {
+    font-weight: bold;
+}
+
+/* Section Footer */
+
+div.footer {
+    padding: 0px 310px 50px 310px;
+    border-top: 5px solid rgb(234, 229, 229);
+    display: grid;
+    grid-template-columns: 280px 350px 200px;
+    grid-template-areas: "purplespider sitemap contacts";
+    gap: 30px;
+}
+
+h2.footer,
+h4.footer {
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 8px;
+}
+
+div.footer_sitemap ul {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: "home about"
+        "services blog"
+        "contacts termsandconditions"
+        "privacypolicy .";
+}
+
+p.footer,
+ul.footer {
+    text-align: left;
+}
+
+@media(max-width: 1200px) {
+    div.footer {
+        padding: 0;
+    }
+}
+
+@media(max-width: 890px) {
+    section.website {
+        margin: 10px;
+        padding: 50px 0px 50px 50px;
+        display: flex;
+        align-items: center;
+        gap: 50px;
+    }
+
+    div.main__testimonials {
+        padding: 0px;
+        display: grid;
+        grid-template-areas: "testimonials1 testimonials2 testimonials3"
+            "testimonials4 testimonials5 testimonials6";
+    }
+
+    div.footer {
+
+        display: grid;
+        grid-template-columns: 150px 270px 150px;
+        grid-template-areas: "purplespider sitemap contacts";
+        gap: 30px;
+    }
+}
+
+@media(max-width: 420px) {
+    header {
+        margin: 10px 0px;
+        display: flex;
+        align-items: center;
+
+    }
+
+    div.nav {
+        width: 300px;
+        margin-right: auto;
+    }
+
+    ul.nav {
+        display: grid;
+        grid-template-rows: repeat(2, 1fr);
+        gap: 0px;
+    }
+
+    div.main_team {
+        padding: 0px 0px;
+        display: flex;
+       flex-direction: column;
+    }
+
+    div.footer{
+        display: flex;
+        flex-direction: column;
+    }
+
+}
