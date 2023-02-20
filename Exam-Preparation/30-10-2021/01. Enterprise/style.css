@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+}
+
+body { 
+    font-family: Helvetica, sans-serif;
+    color: #273240;   
+}
+
+section {
+    width: 1200px;
+    margin: 32px auto;
+    border-radius: 7px;
+    background-color: #f6f8f9;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: "content image";
+}
+
+div.content{   
+    margin: 70px;   
+}
+
+p.content__title{
+    margin-bottom: 11px;
+ 
+}
+
+p.content__header{
+    font-size: 28px;
+    margin: 13px 0px 21px 0;
+}
+
+p.title__content{
+    margin-bottom: 22px;
+    color: #646f79;
+}
+
+
+
+img {
+    margin-top: 120px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+button {
+    padding: 7px 15px;    
+    border-radius: 3px;    
+    cursor: pointer;
+}
+
+button.contact{
+    background-color: #786eff;
+    border: 2px solid #786eff;
+    color: white;
+    margin-right: 3px;
+}
+
+button.learnmore {
+    border: 2px solid #273240;
+    color: #273240;
+    font-weight: bold;
+}
