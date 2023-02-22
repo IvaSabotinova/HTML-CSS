@@ -1,0 +1,190 @@
+body {
+
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.main {
+    background-color: #ffffff;
+    background-image: url(image/image.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 90vw;
+    height: 100vh;
+
+
+}
+
+div.left {
+    margin: 35px 0px 0px 40px;
+    width: 250px;
+    height: 200px;
+    border: transparent;
+    border-radius: 1px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px 70px 30px 15px;
+    color: #363434;
+    box-shadow: 3px 3px 7px 1px #363434;
+}
+
+div.left h1 {
+    font-family: 'Abril Fatface', cursive;
+    padding-bottom: 10px;
+    font-size: 32px;
+
+}
+
+div.horizontal {
+    height: 1.5px;
+    width: 130px;
+    background-color: white;
+    margin-bottom: 5px;
+}
+
+div.right {
+    margin-left: auto;
+    margin-right: 35px;
+    width: 300px;
+    height: 300px;
+    box-shadow: 3px 3px 7px 1px #363434;
+    border-radius: 2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 7px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+    background: linear-gradient(100deg, #a19890, #cecbc8);
+    color: #f1faf4;
+    text-shadow: 1px 1px 1px #432b16;
+}
+
+div.right p {
+    text-align: right;
+}
+
+div.right p.first {
+    font-size: 56px;
+    color: #67615f;
+}
+
+.second-main {
+    display: grid;
+    grid-template-columns: 70% 30%;
+    width: 90vw;
+    height: 100vh;
+}
+
+.bottom-left {
+    background-color: #f2f0f3;
+    grid: bottom-left;
+    display: flex;
+    flex-direction: column;
+}
+
+.bottom-left .services {
+    height: 65%;
+    padding: 50px 100px;
+}
+
+.bottom-left .content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.bottom-left .content i {
+    margin-right: 8px;
+}
+
+.bottom-left .content span{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.bottom-left .contact {
+    height: 10%;
+    border-bottom: 2px solid black;
+}
+
+.bottom-left .contact h1 {
+    padding-top: 27px;
+}
+
+.bottom-left .details__one ul,
+.bottom-left .details__two ul {
+    display: flex;
+    gap: 20px;
+    margin: 0px 100px 10px 100px;
+}
+
+.details span {
+    font-style: italic;
+    font-weight: bold;
+}
+
+.bottom-left .contact h1 {
+    margin-left: 100px;
+}
+
+.bottom-left .details {
+    height: 25%;
+    padding-top: 27px;    
+}
+
+.bottom-left h1 {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Abril Fatface', cursive;
+    margin-bottom: 20px;
+}
+
+.bottom-right {
+    background-color: #bab1ad;
+    grid: bottom-right;
+    display: flex;
+    flex-direction: column;
+   justify-content: space-evenly;
+   padding-left: 30px;
+}
+
+div.buttons{
+    padding-left: 100px;
+    padding-top: 20px;
+}
+
+div.buttons button{
+    border: transparent;
+    border-radius: 3px;
+    padding: 10px 15px;
+    color: #f2f0f3;
+    font-size: 12px;
+}
+
+div.buttons .button-one{
+    background-color: #bab1ad;
+    padding-right: 150px;
+    margin-right: 10px;
+  
+}
+
+div.buttons .button-two{
+    background-color: #67784d;
+}
+
+div.bottom-right .para-one{
+    font-size: 72px;
+    font-weight: 100;
+    color: #ffffff;
+}
+
+div.bottom-right .text{
+    text-transform: uppercase;
+    color: #4f4443;
+}

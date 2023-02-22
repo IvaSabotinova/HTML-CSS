@@ -1,0 +1,101 @@
+body {
+    font-family: 'Mulish', sans-serif;
+    background-image: url(images/background.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cnt-form {
+    background-image: url(images/form-background.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 40%;
+    height: 60%;
+    border-radius: 20px;
+    overflow: hidden;
+
+}
+.cnt-form form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 50px;  
+    width: 80%;
+}
+
+.cnt-form h3{
+    padding: 50px 0px 20px 80px;
+    letter-spacing: 1px;
+    text-transform: uppercase;  
+}
+
+div.name {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+div.fName,
+div.lName {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+}
+
+.email,
+.Password,
+.confirm-password {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+div.name,
+.email,
+.Password,
+.confirm-password {
+    width: 60%;
+}
+
+form div{
+    margin-bottom: 10px;
+}
+
+input {
+    border: 1px solid #dedede;
+    border-radius: 20px;
+    background: transparent;
+}
+
+label{
+    font-size: 10px;
+    color: #919397;
+}
+
+div.policy{
+    display: flex;
+    gap: 2px;
+}
+
+div.policy input{
+    accent-color: #cdcdcd;
+    border: #caa49d;
+}
+
+button{
+    background-color: #ae3c33;
+    color: #ecf1f7;
+    padding: 5px 20px;
+    border: transparent;
+    border-radius: 50px;
+    margin-top: 10px;
+    margin-left: 50px;
+}
